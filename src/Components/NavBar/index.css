@@ -1,0 +1,12 @@
+.navbar {
+    justify-content: space-between;
+    position: fixed;
+    > .form-control {
+        display: flex;
+        flex-direction: row;
+        > input {
+            width: 700px;
+            color: gray;
+        }
+    }
+}
